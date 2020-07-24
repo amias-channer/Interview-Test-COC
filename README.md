@@ -18,8 +18,12 @@ Lots of companies apply technical tests for job interviews, these tests can vary
 
 ### Contribution
 
-This document is an open source effort started by Amias Channer , contributions are welcome in the form of pull requests to this repository https://github.com/amias-channer/Interview-Test-COC or by raising issues 
-https://github.com/amias-channer/Interview-Test-COC/issues.  If there is interest i will gladly build this into community project with appropriate shared governance. 
+This document is an open source effort started by Amias Channer , contributions are welcome in the following forms:
+
+pull requests :  https://github.com/amias-channer/Interview-Test-COC 
+raising issues:  https://github.com/amias-channer/Interview-Test-COC/issues.  
+
+If there is interest i will gladly build this into community project with appropriate shared governance. 
 
 
 
@@ -48,13 +52,24 @@ To ensure the candidate has a good chance of
 ### Duration
 
 Its unfair to expect candidates to do hours of work for technical test, while some might have free time to spare others with families, disabilities or financial issues will not so they will not continue or apply.
-Expecting candidates to push themselves overly hard like this will not necessarily get you balanced reliable employees.  
+
+Expecting candidates to push themselves overly hard like this will not necessarily get you balanced reliable employees.
+
+If you do agile you should consider choosing a task that fits in your planning unit size, if you only allow tasks to be greater than 1hr and less than 4hrs long then you shouldn't be giving tests that take 8hrs.
 
 ### Complexity
 
-Be sure to set challenges that are of appropriate complexity for the level of work candidate would be doing if they got the job. This isn't about who is the most technically competent its about how you explain  
+Be sure to set challenges that are of appropriate complexity for the level of work candidate would be doing if they got the job.
+
+Get your lead dev to design the test but make sure you that it can be completed by someone at the same level, this is a good opportunity for pair programming. 
+
+
 
 ## Deliverables
+
+### Background
+
+Candidates should be able to expect their work to have to reasonable consideration before expending  effort on unpaid work. Employers must ensure they inform the candidate how many other people are doing the test and how the project will be assessed. 
 
 ### Code
 
@@ -64,5 +79,5 @@ Be sure to set challenges that are of appropriate complexity for the level of wo
 
 ### Ownership
 
-Any code or artifacts created during the test remain the property of the candidate.
+Any code or artefacts created during the test remain the property of the candidate, this should be enforced by the use of a GPL3 licence. This ensures the company cant use this process to get free dev time. 
 
