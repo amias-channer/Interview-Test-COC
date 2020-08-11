@@ -31,21 +31,37 @@ If there is interest i will gladly build this into community project with approp
 
 ## Resources 
 
-This section will outline what is expected for technical test.
+This section will outline what is expected for technical test and provide some sensible basic standards.
 
 ### Documents
 
-To ensure the candidate has a good chance of 
+To ensure each candidate has a fair chance of doing this on general computer, don't use word documents when text , markup or PDF is more accessible and takes less load to to display.
 
 #### Specification
 
+Try to make the specification follow the guidelines you would use for setting a task in your workflow, making it cryptic is rarely testing a skill that is used professionally. Try to make it self contained and ensure its tested on an non company computer before sending it out. Try it out on someone in your company at the level you are recruiting for.
+
 #### Credentials
+
+Ensure that any credentials required are supplied to the candidate.  Make sure they have specifically tailored access which is shutdown after the test.
+Don't expect candidates to use their own resources.
 
 ### Servers
 
+Obviously do not give access to production environments but do ensure the environments you provide are up to the task an dsimilar to production 
+If you are worried that this exposes your security then your system design is probably not secure enough to start with.
+
 ### APIs
 
+Provide candidates with approriate API keys if they are required , this is usefull for you beacuse you can watch someone learn your API and you can shut a user down quickly if they are causing damage.  
+
+### Libraries
+
+Unless the test specifically requires the selection of appropriate libraries then they should be provided installed and tested in the test environment.
+
 ### VMs
+
+Don't rely on candidates to be able to host VM's , most developers are activiely discouraged from doing this in the workplace and it cuts off a lot of people who don't have powerfull hardware. Lighterweight containers such as Docker are a much better option here but be carefull you aren't testing a candidates wealth rather than skill. 
 
 ## Guidelines
 
@@ -59,10 +75,9 @@ If you do agile you should consider choosing a task that fits in your planning u
 
 ### Complexity
 
-Be sure to set challenges that are of appropriate complexity for the level of work candidate would be doing if they got the job.
+Be sure to set challenges that are of appropriate complexity for the level of work candidate would be doing if they got the job. We have a a lot of ego probrlems in programming and this leads to unhealthy gate keeping. Accept that maybe you and your company aren't the be all and end all of computing but that you can provide meaningfull jobs for the majority of programmers who aren't the rockstar 1%. 
 
 Get your lead dev to design the test but make sure you that it can be completed by someone at the same level, this is a good opportunity for pair programming. 
-
 
 
 ## Deliverables
@@ -73,11 +88,20 @@ Candidates should be able to expect their work to have to reasonable considerati
 
 ### Code
 
+Code should confirm to the functional and code sytle specifications
+
 ### Repository
 
-### Docker
+Code must allways be delivered in a repository, part of the test is using version control because its essential to modern programming.
 
 ### Ownership
 
 Any code or artefacts created during the test remain the property of the candidate, this should be enforced by the use of a GPL3 licence. This ensures the company cant use this process to get free dev time. 
+
+## Response
+
+If you set these tests you absolutely have an obligation to respond to everyone who takes the time to submit them as basic courtesy. 
+
+You should inform candidates of any delays or changes to your planned response, they may have multiple applications they need to decide between.
+
 
